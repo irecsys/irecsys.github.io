@@ -27,6 +27,22 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+<style type="text/css">	
+ld{
+  display: list-item;
+  list-style-type: "+ ";
+}
+</style>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+<script>
+$(document).ready(function(e) {
+    $("ul ld").click(function(e) {
+        $(this).children("ul").toggle();
+        e.stopPropagation(); 
+    });
+});
+</script>
   </head>
   <body>
     
@@ -210,7 +226,7 @@
 
 <h5>Honors, Grants & Awards</h5>
 <ul>
-<li>2021, SIGCHI Development Fund</li>
+<li>2021, ACM SIGCHI Development Fund</li>
 <li>2020, PI, Industry Grant #20-0195</li>
 <li>2020, PI, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2022227" target="_blank">NSF grant (#2022227)</a> to support students in ACM UMAP 2020 & 2021</li>
 <li>2018, PI, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1830908" target="_blank">NSF grant (#1830908)</a> to support students in ACM UMAP 2018 & 2019</li>
@@ -228,21 +244,39 @@
 
 <h5>Latest News</h5>
 <ul>
-<li>08/2020, I will give a <a href="talk/Keynote_CARS_Extending_Contexts_to_Multi-Entity_Recommender_Systems.pdf" target="_blank">Keynote talk</a> at <a href="https://cars-workshop.com/" target="_blank">CARS workshop</a> @ <a href="https://recsys.acm.org/recsys20/" target="_blank">ACM RecSys 2020</a></li>
-<li>05/2020, I serve as Student Volunteer Co-Chair at <a href="https://iui.acm.org/2021/" target="_blank">ACM IUI, Texas, USA, 2021</a>
-<li>02/2020, collaboration with <a href="https://digbysecurity.com/" target="_blank">Digby's Detective & Security Agency, Inc.</a> to predict crimes over CTA services</li>
-<li>01/2020, serve as student support chair at ACM UMAP 2020</li>
-<li>06/2019, Track Chair, Track on Recommender Systems @ ACM SAC 2020</li>
-<li>10/2018, serve as student support chair at ACM UMAP 2019</li>
-<li>05/2018, Track Chair, Track on Recommender Systems @ ACM SAC 2019</li>
-<li>04/2018, principal investigator, NSF grant to support students in ACM UMAP 2018</li>
-<li>03/2018, Workshop Chair, Workshop on RecSysKTL @ ACM RecSys 2018</li>
-<li>10/2017, serve as publicity chair for ACM RecSys 2018, ACM IUI 2018 and ACM IUI 2019</li>
-<li>10/2017, serve as student support chair at ACM UMAP 2018</li>
-<li>09/2017, serve as a distinguished reviewer for ACM Transactions on Interactive Intelligent Systems (TiiS)</li>
-<li>07/2017, invited talk at The University of Glasgow, UK</li>
-<li>05/2017, Track Chair, Track on Recommender Systems @ ACM SAC 2018</li>
-<li>02/2017, Workshop Chair, Workshop on RecSysKTL @ ACM RecSys 2017</li>
+<li>2021 - 2022
+	<ul>
+		<li>05/2021, I will give a tutorial on "<a href="https://moorecsys.github.io/" target="_blank">Multi-Objective Recommendations</a>" at ACM KDD 2021</li>
+		<li>05/2021, PI, ACM SIGCHI Development Fund for ACM UMAP 2021</li>
+		<li>01/2021, Serve as student support chair at ACM UMAP 2021 and ACM IUI 2021</li>
+		<li>01/2021, Track Chair, Track on Recommender Systems @ ACM SAC 2021</li>
+	</ul>
+</li>
+<ld>2019 - 2020
+	<ul style="display:none">
+		<li>08/2020, I will give a <a href="talk/Keynote_CARS_Extending_Contexts_to_Multi-Entity_Recommender_Systems.pdf" target="_blank">Keynote talk</a> at <a href="https://cars-workshop.com/" target="_blank">CARS workshop</a> @ <a href="https://recsys.acm.org/recsys20/" target="_blank">ACM RecSys 2020</a></li>
+		<li>05/2020, Serve as Student Volunteer Co-Chair at <a href="https://iui.acm.org/2021/" target="_blank">ACM IUI, Texas, USA, 2021</a>
+		<li>04/2020, PI, NSF grant to support students in ACM UMAP 2020 &amp; 2021</li>
+		<li>02/2020, Collaboration with <a href="https://digbysecurity.com/" target="_blank">Digby's Detective & Security Agency, Inc.</a> to predict crimes over Chicago Transit Authority (CTA) services</li>
+		<li>01/2020, Serve as student support chair at ACM UMAP 2020</li>
+		<li>12/2019, Invited talk on "Multi-Stakeholder Recommendations" at Morningstar, Inc.</li>
+		<li>06/2019, Track Chair, Track on Recommender Systems @ ACM SAC 2020</li>
+	</ul>
+</ld>
+<ld>2017 - 2018
+	<ul style="display:none">
+		<li>10/2018, Serve as student support chair at ACM UMAP 2019</li>
+		<li>05/2018, Track Chair, Track on Recommender Systems @ ACM SAC 2019</li>
+		<li>04/2018, PI, NSF grant to support students in ACM UMAP 2018 &amp; 2019</li>
+		<li>03/2018, Workshop Chair, Workshop on RecSysKTL @ ACM RecSys 2018</li>
+		<li>10/2017, Serve as publicity chair for ACM RecSys 2018, ACM IUI 2018 and ACM IUI 2019</li>
+		<li>10/2017, Serve as student support chair at ACM UMAP 2018</li>
+		<li>09/2017, Serve as a distinguished reviewer for ACM Transactions on Interactive Intelligent Systems</li>
+		<li>07/2017, Invited talk on "Context-Aware Recommendations" at The University of Glasgow, UK</li>
+		<li>05/2017, Track Chair, Track on Recommender Systems @ ACM SAC 2018</li>
+		<li>02/2017, Workshop Chair, Workshop on RecSysKTL @ ACM RecSys 2017</li>
+	</ul>
+</ld>
 </ul>
             </div>
 
