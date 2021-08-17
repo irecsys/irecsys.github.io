@@ -23,9 +23,25 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 	<link rel="stylesheet" href="fonts/academicons/css/academicons.min.css">
-
-    <!-- Theme Style -->
+	
+	    <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+<style type="text/css">	
+ld{
+  display: list-item;
+  list-style-type: "+ ";
+}
+</style>
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(e) {
+    $("ul ld").click(function(e) {
+        $(this).children("ul").toggle();
+        e.stopPropagation(); 
+    });
+});
+</script>
   </head>
   <body>
     
@@ -212,6 +228,12 @@
 <li><strong>Yong Zheng</strong>. "<a href="http://www.slideshare.net/irecsys/tutorial-context-in-recommender-systems" target="_blank" rel="noopener noreferrer">Context In Recommender Systems</a>", Proceedings of the 31st ACM SIGAPP Symposium&nbsp;on Applied Computing (ACM SAC), Pisa, Italy, April 2016 (<a href="http://www.slideshare.net/irecsys/tutorial-context-in-recommender-systems" target="_blank">Slide</a>)</li>
 </ul>
 
+<h5>Technical Reports</h5>
+<ul>
+<li>Yong Zheng, David (Xuejun) Wang. "<a href="https://arxiv.org/abs/2108.06367" target="_blank" rel="noopener noreferrer">Multi-Objective Recommendations: A Tutorial</a>". CoRR abs/2108.06367. Aug, 2021</li>
+<li>Yong Zheng. "<a href="http://arxiv.org/abs/1511.03780" target="_blank" rel="noopener noreferrer">A User's Guide to CARSKit</a>". CoRR abs/1511.03780. Nov, 2015</li>
+</ul>
+
 <h5>Refereed Conference Publications</h5>
 <ul>
 <li>2016 - 2020</li>
@@ -260,7 +282,6 @@
 </li>
 </ul>
 
-
 <li>2011 - 2015</li>
 <ul>
 <li><strong>Yong Zheng</strong>. "Context-Awareness In Recommender Systems", PhD Dissertation, DePaul University, USA, 2016</li>
@@ -300,10 +321,7 @@
 </li>
 </ul>
 </ul>
-<h5>Technical Reports</h5>
-<ul>
-<li>Yong Zheng. "<a href="http://arxiv.org/abs/1511.03780" target="_blank" rel="noopener noreferrer">A User's Guide to CARSKit</a>". CoRR abs/1511.03780. Nov, 2015</li>
-</ul>
+
 <h5>Translations</h5>
 <ul>
 <li>Chapter 11: Recommender Systems in Industry: A Netflix Case Study, In Book: edited by Francesco Ricci, et al., Recommender Systems Handbook Second Edition&nbsp;(推荐系统手册第二版, ISBN: 9787111600756), China Machine Press, 2018; <a href="https://www.amazon.cn/dp/B07F8YQ5ZB" target="_blank" rel="noopener noreferrer">Amazon.cn</a>, <a href="https://item.jd.com/29981612361.html" target="_blank" rel="noopener noreferrer">JD.COM</a></li>
